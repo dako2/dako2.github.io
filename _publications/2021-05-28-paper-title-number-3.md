@@ -2,10 +2,10 @@
 title: "Flat-Panel Mechanical Beam Steerable Array Antennas With In-Plane Rotations: Theory, Design and Low-Cost Implementation"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2021-05-28-paper-title-number-3
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
+date: 2021-05-28
+venue: 'IEEE Open Journal of Antennas and Propagation'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/9444281'
 citation: ''
