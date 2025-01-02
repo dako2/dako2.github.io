@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: https://ieeexplore.ieee.org/document/8310067
 excerpt: 'This paper is about fixing template issue #693.'
-date: 2018-03-12
+date: 2024-03-12
 venue: '2024 KDD Cup Workshop for Retrieval Augmented Generation at the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining'
 paperurl: ''
 citation: #''
