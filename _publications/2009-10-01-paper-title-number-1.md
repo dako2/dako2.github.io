@@ -7,7 +7,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2009-10-01
 venue: 'Phys. Rev. Applied'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.17.034008'
+paperurl: ''
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
