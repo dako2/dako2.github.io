@@ -47,13 +47,13 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
+        {% if page.venue and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">{{ page.venue }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
+        {% elsif page.venue and page.paperurl %}
           <p style="font-size: smaller">{{ page.venue }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
+        {% elsif page.venue and page.slidesurl %}
           <p style="font-size: smaller">{{ page.venue }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif page.citation %}
+        {% elsif page.venue %}
           <p style="font-size: smaller">{{ page.venue }}</p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>

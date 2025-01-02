@@ -2,12 +2,12 @@
 title: "Demonstration of a 40Gbps Bi-directional Air-to-Ground Millimeter Wave Communication Link"
 collection: publications
 category: conferences
-permalink: /publication/2010-10-01-paper-title-number-2
+permalink: https://ieeexplore.ieee.org/abstract/document/8700741
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2019-07-25
 venue: '2019 IEEE MTT-S International Microwave Symposium (IMS)'
 slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/8700741'
+paperurl: ''
 citation: 'Q. Tang et al., "Demonstration of a 40Gbps Bi-directional Air-to-Ground Millimeter Wave Communication Link," 2019 IEEE MTT-S International Microwave Symposium (IMS), Boston, MA, USA, 2019, pp. 746-749, doi: 10.1109/MWSYM.2019.8700741. keywords: {Atmospheric modeling;Antennas;Attenuation;Downlink;Uplink;ITU;Rain;Air-to-ground;Rural Connectivity;E-band;High Altitude Platform;Millimeter Wave;Pointing Acquisition and Tracking;UAV}'
 ---
 

@@ -2,7 +2,7 @@
 title: "Connection between Antennas, Beam Steering, and the Moiré Effect"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.17.034008
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2009-10-01
 venue: 'Phys. Rev. Applied'

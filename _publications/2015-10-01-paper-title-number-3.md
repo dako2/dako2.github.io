@@ -2,12 +2,12 @@
 title: "Flat-Panel Mechanical Beam Steerable Array Antennas With In-Plane Rotations: Theory, Design and Low-Cost Implementation"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: https://ieeexplore.ieee.org/abstract/document/9444281
 excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2015-10-01
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'https://ieeexplore.ieee.org/abstract/document/9444281'
+paperurl: ''
 citation: 'Q. Tang et al., "Flat-Panel Mechanical Beam Steerable Array Antennas With In-Plane Rotations: Theory, Design and Low-Cost Implementation," in IEEE Open Journal of Antennas and Propagation, vol. 2, pp. 679-688, 2021, doi: 10.1109/OJAP.2021.3084842. keywords: {Manganese;Phased arrays;Antennas;Social networking (online);Computer hacking;Prototypes;Apertures;Beam steering;design-to-cost;flat-panel;high altitude platform;low earth orbit satellites;mechanical systems;moiré pattern;phased arrays;satellite ground stations;user terminals},'
 ---
 
