@@ -2,7 +2,7 @@
 title: "Experimental demonstration of digital pre-distortion for millimeter wave power amplifiers with GHz bandwidth"
 collection: publications
 category: conferences
-permalink: https://ieeexplore.ieee.org/document/8310067
+permalink: /publication/2024-02-17-paper-title-number-4
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2018-03-12
 venue: '2018 IEEE Topical Conference on RF/Microwave Power Amplifiers for Radio and Wireless Applications (PAWR)'

@@ -2,7 +2,7 @@
 title: "Honest AI: Fine-Tuning "Small" Language Models to Say "I Don't Know", and Reducing Hallucination in RAG"
 collection: publications
 category: conferences
-permalink: https://ieeexplore.ieee.org/document/8310067
+permalink: 2024-03-12-paper-title-number-5
 excerpt: 'This paper is about fixing template issue #693.'
 date: 2024-03-12
 venue: '2024 KDD Cup Workshop for Retrieval Augmented Generation at the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining'
