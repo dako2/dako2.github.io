@@ -2,7 +2,7 @@
 title: "Active metamaterial: gain and stability, and microfluidic chip for thz cell spectroscopy"
 collection: talks
 type: "dissertation"
-permalink: /talks/2016-12-20-talk-3
+permalink: /talks/2016-12-20-dissertation
 venue: "dissertation"
 date: 2016-12-20
 location: "Tucson, AZ"
