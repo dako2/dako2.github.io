@@ -6,6 +6,10 @@ permalink: /talks/2013-07-24-active-antenna
 venue: "2013 IEEE International Symposium on Antennas and Propagation and North American Radio Science Meeting"
 date: 2013-07-24
 location: "Orlando, FL"
----
-
-[Preview PDF](https://docs.google.com/viewer?url=https://dako2.github.io/files/TANG_URSI2013.pdf)
+--- 
+ 
+<iframe 
+  src="https://dako2.github.io/files/TANG_URSI2013.pdf#page=1" 
+  style="width:100%; height:500px;" 
+  frameborder="0">
+</iframe>
