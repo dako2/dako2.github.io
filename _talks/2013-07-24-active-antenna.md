@@ -9,7 +9,7 @@ location: "Orlando, FL"
 --- 
  
 <iframe 
-  src="https://dako2.github.io/files/TANG_URSI2013.pdf#page=1" 
+  src="https://dako2.github.io/files/TANG_URSI2013.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0" 
   style="width:100%; height:500px;" 
   frameborder="0">
 </iframe>
