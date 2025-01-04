@@ -42,10 +42,3 @@ preliminary experiments on E. coli and T cell solution and compare the transmiss
 spectra of empty channels, channels filled with aqueous media only, and channels filled
 with aqueous medium with un-concentrated and concentrated cells.
 
-[Preview PDF](https://docs.google.com/viewer?url=https://dako2.github.io/files/IMS2017_Qi_Tang.pdf)
-
-<iframe 
-  src="https://dako2.github.io/files/IMS2017_Qi_Tang.pdf#page=1" 
-  style="width:100%; height:500px;" 
-  frameborder="0">
-</iframe>
