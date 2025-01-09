@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This is the front page of Qi's personal website that is under development..."
+title: "About Qi..."
 author_profile: true
 redirect_from: 
   - /about/
