@@ -1,6 +1,5 @@
 ---
 title: "Mechanical Steerable Antennas"
-excerpt: "msa"
 collection: portfolio
 ---
 <video controls style="width:100%; max-width:800px;">
