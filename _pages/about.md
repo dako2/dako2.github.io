@@ -12,8 +12,8 @@ My current job at Google is hardware engineering on the Pixel phone team. I desi
 
 
 <div style="width: 100%; height: 60%; overflow: hidden; position: relative;">
-  <img src="wsj_qitang.avif" alt="WSJ Qitang Chart" 
-       style="width: 100%; height: auto; position: absolute; top: -20%; left: 0;">
+  <img src="files/wsj_qitang.avif" alt="WSJ Qitang Chart" 
+       style="width: 100%; height: auto; position: absolute; top: -10%; left: 0;">
 </div>
 Photo from The Wall Street Journal https://www.wsj.com/articles/tech-giants-are-moving-into-the-home-wireless-business-11571840826
 
