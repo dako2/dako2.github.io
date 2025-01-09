@@ -8,6 +8,12 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+AI / 6G
+---
+Honest AI: Fine-Tuning "Small" Language Models to Say "I Don't Know", and Reducing Hallucination in RAG, https://arxiv.org/abs/2410.09699
+
+Whitepaper: MEC support towards Edge Native Design, https://www.etsi.org/images/files/ETSIWhitePapers/ETSI-WP55-MEC_support_towards_Edge_native.pdf
+
 Connectivity
 ---
 
