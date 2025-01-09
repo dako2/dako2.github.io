@@ -11,10 +11,7 @@ Hi, I'm an engineer and researcher currently living in the Bay Area, California.
 My current job at Google is hardware engineering on the Pixel phone team. I design wireless connectivity modules and ship them for the Pixel Pro 6/7/8/9/… series. Before that, from 2016 to 2020, I was a research engineer at Facebook’s Connectivity Lab in Los Angeles. It was a golden era of “moonshot” research in big tech, and I feel lucky to have collaborated with many talents on solving quite challenging and complex problems innovatively. One memorable project from that time was Project Aquila—a large unmanned aerial vehicle, which now hangs above Mr. Zuckerberg’s desk in Building 21—a true symbol of that period.
 
 
-<div style="width: 100%; height: 60%; overflow: hidden; position: relative;">
-  <img src="files/wsj_qitang.avif" alt="WSJ Qitang Chart" 
-       style="width: 100%; height: auto; position: absolute; top: -10%; left: 0;">
-</div>
+<img src="files/wsj_qitang.avif" alt="Alt Text" width="desired_width" height="desired_height">
 Photo from The Wall Street Journal https://www.wsj.com/articles/tech-giants-are-moving-into-the-home-wireless-business-11571840826
 
 Two major achievements stand out from my time there. First, I led the development of a record-breaking high throughput long distance E-band (71–86 GHz) millimeter-wave link. The same technique is now used in SpaceX’s satellite feeder links. Second, I connected antenna theory to Moiré patterns, discovering a novel way to design steerable antennas—much needed back then when affordable commercial phase shifter chips weren’t available. Phased-array antennas typically require thousands of phase shifters, which cost us $500k for our first prototype! The goal behind MSA was to bring the cost below $500 for a satellite user terminal phased-array antenna. That vision became less critical after SpaceX launched its user terminals during the pandemic.
