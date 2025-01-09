@@ -44,3 +44,11 @@ K. Chang, Q. Tang, H. Xin, “Balanced and Symmetric Design of Active Composite 
 Qi Tang, Fan-Yi Meng, Qun Wu, and Jong-Chul Lee, “A balanced composite backward and forward compact waveguide based on resonant metamaterials”, Journal of Applied Physics 109, 07A319, 2011.
 
 Qi Tang, Fan-Yi Meng, Kuang Zhang, Qun Wu, and Le-Wei Li, “Polarization characteristics of the wave reflection at the interface of vacuum and Faraday Chiral Medium”, Acta Physica Sinica, Vol.60, No.1, Jan. 2011.
+
+Patents
+---
+Q Tang, S Saraswat, F Tabatabai, Apparatus, system, and method for transferring radio frequency signals between waveguides and radiating elements in antennas, US Patent 11,777,201, 2023
+F Tabatabai, Q Tang, E Booen, Apparatus, system, and method for transferring radio frequency signals between parallel waveguides in antennas
+P Bondalapati, A Tiwari, F Marsili, Q Tang, Determining whether a site supports a supercell base station, US Patent 10,750,373
+P Bondalapati, A Tiwari, F Marsili, Q Tang, Site survey tool for cellular base station placement, US Patent 10,524,134
+H Xin, Q Tang, A Kantemur, Microwave gain medium with negative refractive index, US Patent 10,431,897

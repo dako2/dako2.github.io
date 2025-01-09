@@ -39,4 +39,19 @@ var addressPoints = [
     42.3601,    // Latitude for Boston
     -71.0589    // Longitude for Boston
   ],
+  [
+    "Shenzhen, China",
+    22.5431,    // Latitude for Shenzhen
+    114.0579    // Longitude for Shenzhen
+  ],
+  [
+    "Harbin, China",
+    45.803775,    // Approximate latitude for Harbin
+    126.534967    // Approximate longitude for Harbin
+  ],
+  [
+    "Dubai, UAE",
+    25.2048,    // Latitude for Dubai
+    55.2708     // Longitude for Dubai
+  ],
 ];
