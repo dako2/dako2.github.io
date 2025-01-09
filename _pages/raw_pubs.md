@@ -8,7 +8,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-AI / 6G
+AI related
 ---
 Honest AI: Fine-Tuning "Small" Language Models to Say "I Don't Know", and Reducing Hallucination in RAG, KDD 2024, Barcelona, Spain https://arxiv.org/abs/2410.09699
 
@@ -54,7 +54,11 @@ Qi Tang, Fan-Yi Meng, Kuang Zhang, Qun Wu, and Le-Wei Li, “Polarization charac
 Patents
 ---
 Q Tang, S Saraswat, F Tabatabai, Apparatus, system, and method for transferring radio frequency signals between waveguides and radiating elements in antennas, US Patent 11,777,201, 2023
-F Tabatabai, Q Tang, E Booen, Apparatus, system, and method for transferring radio frequency signals between parallel waveguides in antennas
+
+F Tabatabai, Q Tang, E Booen, Apparatus, system, and method for transferring radio frequency signals between parallel waveguides in antennas, US Patent 11,677,161, 2023
+
 P Bondalapati, A Tiwari, F Marsili, Q Tang, Determining whether a site supports a supercell base station, US Patent 10,750,373
+
 P Bondalapati, A Tiwari, F Marsili, Q Tang, Site survey tool for cellular base station placement, US Patent 10,524,134
+
 H Xin, Q Tang, A Kantemur, Microwave gain medium with negative refractive index, US Patent 10,431,897
