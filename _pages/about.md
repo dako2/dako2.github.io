@@ -20,7 +20,7 @@ What's next?
 --- 
 Over the years, I’ve explored “non-productizable” research areas—active metamaterials, Project Aquila, MSA, and more. I realized I could spend my entire life pursuing these kinds of research topics and really enjoyed it. There are still many works I left unfinished, e.g. the stability control theory in active/gain materials, the bullseye morie patterned steerable array antenna. However, ChatGPT arrived in winter 2022, it was a huge eye-opener for me. I still recall being in a San Francisco hotel, coding a conversational agent on the very day the GPT-3.5 API was released. The impact is so broad and cross-displinary and the market needs is so urge, that I decided to devote the rest of my career to AI-related research and industry.
 
-In 2023, I kicked off an AI agent platform integrated into 5G MEC standard, aiming to bring computation closer to users by MNO's network. 
+In 2023, I kicked off an AI agent platform integrated into 5G MEC standard, aiming to bring computation closer to users by MNO's network.
 
 In 2024, I joined several hackathons, winning first or second place three times at AGI House in Hillsborough. Projects ranged from building agent apps to VR solutions, where I got a taste of true “hacker” culture (though I’ll admit I’m still not fully at home in it—lots of hands-on work, but I do enjoy the learning curve). Two competitions especially stood out: the 2024 KDD Cup on RAG, which required using LLMs to retrieve accurate information from massive web-scraped data, and the 2024 NeurIPs AI Code competition, where we had to solve very complex algorithmic tasks in under 10 minutes. I also made it to Beyond Expo in Macau in May 2024, where I met a few startup founders from China and soaked in the vibrant energy there.
 
