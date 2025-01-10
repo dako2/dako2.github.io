@@ -6,6 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+https://www.youtube.com/channel/UCHy1iU-mW2XcQhMHysJvaHA
+
 Hi, I'm an engineer and researcher currently living in the Bay Area, California. These days, my interests revolve around AI and its applications. In 2024, I've participated in several AI-related hackathons—everything from training a speech model and fine-tuning an LLM, to building a RAG system and code generation. I'm amazed at the vast capabilities of LLMs and how we, as humans, can harness them to tackle real-world problems.
 
 My current job at Google is hardware engineering on the Pixel phone team. I design wireless connectivity modules and ship them for the Pixel Pro 6/7/8/9/… series. Before that, from 2016 to 2020, I was a research engineer at Facebook’s Connectivity Lab in Los Angeles. It was a golden era of “moonshot” research in big tech, and I feel lucky to have collaborated with many talents on solving quite challenging and complex problems innovatively. One memorable project from that time was Project Aquila—a large unmanned aerial vehicle, which now hangs above Mr. Zuckerberg’s desk in Building 21—a true symbol of that period.
