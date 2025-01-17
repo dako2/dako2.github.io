@@ -22,10 +22,10 @@ Work experience
 * Fall 2017: Research Engineer
   * Facebook Connectivity, Los Angeles
 
-* Summer 2012: RFIC Engineer Interns
+* 2012: RFIC Engineer Interns
   * Broadcom Inc., Irvine, CA
 
-* Summer 2011-2016: Research Assistant
+* 2011-2016: Research Assistant
   * The University of Arizona, Irvine, CA
 
 Publications

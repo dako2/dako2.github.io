@@ -12,7 +12,7 @@ Hi, I'm a researcher and engineer living in the Bay Area, California. These days
 
 Current Position and Research Interests
 ---
-I currently work at Google, where my responsibilities include the design and deployment of wireless connectivity solutions for Pixel devices. My work involves the development of high-performance connectivity modules, contributing to the enhancement of consumer electronics technology.
+I currently work at Google, where my responsibilities include the design and deployment of wireless connectivity solutions for Pixel devices. My work involves the development of high-performance connectivity modules, contributing to the enhancement of consumer electronics technology. 
 
 Previous Experience and Key Achievements
 ---
