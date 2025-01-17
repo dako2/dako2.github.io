@@ -10,26 +10,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Applied Electromagnetics, the University of Arizona, 2016
-* M.S. in Microwave Engineering, Harbin Institute of Technology, 2011
-* B.S. in Information and Communication Engineering, Harbin Institute of Technology, 2009
+* Ph.D in Electrical and Computer Engineering, the University of Arizona, 2011-2016
+* M.S. in Microwave Engineering, Harbin Institute of Technology, 2009-2011
+* B.S. First Honor Degree in Electronics and Information Engineering, Harbin Institute of Technology, 2005-2009
 
 Work experience
 ======
-* Spring 2020: Engineer
+* Spring 2020: Senior Hardware Engineer
   * Google Inc., Mountain View, CA
 
-* Fall 2017: Research Assistant
+* Fall 2017: Research Engineer
   * Facebook Connectivity, Los Angeles
 
-* Summer 2012: Research Assistant
+* Summer 2012: RFIC Engineer Interns
   * Broadcom Inc., Irvine, CA
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Hardware and software 
+
+* Summer 2011-2016: Research Assistant
+  * The University of Arizona, Irvine, CA
 
 Publications
 ======
