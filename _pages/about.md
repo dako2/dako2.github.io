@@ -10,12 +10,12 @@ https://www.youtube.com/channel/UCHy1iU-mW2XcQhMHysJvaHA
 
 Hi, I'm a researcher and engineer living in the Bay Area, California. These days my interests revolve around AI and its applications. Over the years, I've led several research projects and successfully brought products to market.
 
-Currently, I work at Google on the Pixel phone team, where I design and ship wireless connectivity modules for the Pixel Pro series (including models 6/7/8/9...). Prior to this, from 2016 to 2020, I was a research engineer at Facebook’s Connectivity Lab in Los Angeles. 
+Currently, I work at Google on the Pixel phone team, where I design and ship wireless connectivity modules for the Pixel Pro series (including models 6/7/8/9...). Prior to this, from 2016 to 2020, I was a research engineer at Facebook’s Connectivity Lab in Los Angeles. That period was a golden era of ambitious “moonshot” research in big tech, and I was fortunate to collaborate with talented individuals on solving complex and challenging problems in innovative ways. One memorable project from that time was Project Aquila – a large unmanned aerial vehicle that now hangs above Mr. Zuckerberg’s desk in Building 21, symbolizing that era.
 
 <img src="files/wsj_qitang.avif" alt="Alt Text" width="desired_width" height="desired_height">
 Photo from The Wall Street Journal https://www.wsj.com/articles/tech-giants-are-moving-into-the-home-wireless-business-11571840826
 
-Two major achievements from my time at Facebook Connectivity Lab stand out: 
+Two major achievements from my time at Facebook stand out: 
 
 - First, I led the development of a record-breaking high throughput long distance E-band (71–86 GHz) millimeter-wave link. 
 <a href="https://techcrunch.com/2017/04/19/facebooks-millimeter-wave-radio-tech-hits-new-bandwidth-records/?fbclid=IwY2xjawHsVZZleHRuA2FlbQIxMQABHc3j-WvWnDk_gBAGb6Jh4iBZblvAQhuPNKW3mIO4fLofToCk_mRmDqcRcQ_aem_9djtcKzJWGYHpPtkoHp3Iw" target="_blank">Read more about this achievement on TechCrunch</a> The same technique is now used in SpaceX’s satellite feeder links. 
