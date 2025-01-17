@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Researcher and Engineer specializing in AI and Wireless Communications
+<i>Researcher and Engineer specializing in AI and Wireless Communications</i>
 
 Hi, I'm a researcher and engineer living in the Bay Area, California. These days my interests revolve around AI and its applications. My career spans both industry-leading research and engineering roles, where I have led multiple research initiatives and successfully transitioned innovative projects into market-ready products.
 
