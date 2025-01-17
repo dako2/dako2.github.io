@@ -6,29 +6,37 @@ redirect_from:
   - /about/
   - /about.html
 ---
-https://www.youtube.com/channel/UCHy1iU-mW2XcQhMHysJvaHA
+Researcher and Engineer specializing in AI and Wireless Communications
 
-Hi, I'm a researcher and engineer living in the Bay Area, California. These days my interests revolve around AI and its applications. Over the years, I've led several research projects and successfully brought products to market.
+Hi, I'm a researcher and engineer living in the Bay Area, California. These days my interests revolve around AI and its applications. My career spans both industry-leading research and engineering roles, where I have led multiple research initiatives and successfully transitioned innovative projects into market-ready products.
 
-Currently, I work at Google on the Pixel phone team, where I design and ship wireless connectivity modules for the Pixel Pro series (including models 6/7/8/9...). Prior to this, from 2016 to 2020, I was a research engineer at Facebook’s Connectivity Lab in Los Angeles. That period was a golden era of ambitious “moonshot” research in big tech, and I was fortunate to collaborate with talented individuals on solving complex and challenging problems in innovative ways. One memorable project from that time was Project Aquila – a large unmanned aerial vehicle that now hangs above Mr. Zuckerberg’s desk in Building 21, symbolizing that era.
+Current Position and Research Interests
+---
+I currently work at Google, where my responsibilities include the design and deployment of wireless connectivity solutions for Pixel devices. My work involves the development of high-performance connectivity modules, contributing to the enhancement of consumer electronics technology.
+
+Previous Experience and Key Achievements
+---
+From 2016 to 2020, I served as a research engineer at Facebook’s Connectivity Lab in Los Angeles. During this period, I collaborated with a multidisciplinary team to address complex challenges in wireless communication and antenna design. One notable project was Project Aquila, a large unmanned aerial vehicle, which served as a platform for pioneering long-distance wireless research.
 
 <img src="files/wsj_qitang.avif" alt="Alt Text" width="desired_width" height="desired_height">
 Photo from The Wall Street Journal https://www.wsj.com/articles/tech-giants-are-moving-into-the-home-wireless-business-11571840826
 
-Two major achievements from my time at Facebook stand out: 
+Two major technical contributions during my tenure at Facebook include:
 
-- First, I led the development of a record-breaking high throughput long distance E-band (71–86 GHz) millimeter-wave link. 
-<a href="https://techcrunch.com/2017/04/19/facebooks-millimeter-wave-radio-tech-hits-new-bandwidth-records/?fbclid=IwY2xjawHsVZZleHRuA2FlbQIxMQABHc3j-WvWnDk_gBAGb6Jh4iBZblvAQhuPNKW3mIO4fLofToCk_mRmDqcRcQ_aem_9djtcKzJWGYHpPtkoHp3Iw" target="_blank">Read more about this achievement on TechCrunch</a> The same technique is now used in SpaceX’s satellite feeder links. 
-- Second, I connected antenna theory to Moiré patterns, discovering a novel way to design steerable antennas—much needed back then when affordable commercial phase shifter chips weren’t available. Phased-array antennas typically require thousands of phase shifters, which cost us $500k for our first prototype! The goal behind MSA was to bring the cost below $500 for a satellite user terminal phased-array antenna. That vision became less critical after SpaceX launched its user terminals during the pandemic.
+E-band Millimeter-Wave Link: I led the development of a high-throughput, long-distance E-band (71–86 GHz) millimeter-wave communication link, setting a new record in the field. This advancement in high-frequency wireless communication has been applied in SpaceX’s satellite feeder links, demonstrating significant impact on the industry. <a href="https://techcrunch.com/2017/04/19/facebooks-millimeter-wave-radio-tech-hits-new-bandwidth-records/?fbclid=IwY2xjawHsVZZleHRuA2FlbQIxMQABHc3j-WvWnDk_gBAGb6Jh4iBZblvAQhuPNKW3mIO4fLofToCk_mRmDqcRcQ_aem_9djtcKzJWGYHpPtkoHp3Iw" target="_blank">Read more about this achievement on TechCrunch</a> 
 
-What's next? 
+Innovative Antenna Design via Moiré Patterns: I integrated principles of antenna theory with Moiré pattern analysis to conceive a novel method for designing steerable antennas. This approach offered a cost-effective alternative to traditional phased-array antenna designs, which typically require thousands of expensive phase shifters. The method aimed to reduce the cost of a satellite user terminal phased-array antenna from approximately $500k to below $500. Although subsequent market developments shifted priorities, the research provided valuable insights into antenna theory and design.
+
+Research Trajectory and Future Directions
 --- 
-Over the years, I’ve explored “non-productizable” research areas—active metamaterials, Project Aquila, MSA, and more. I realized I could spend my entire life pursuing these kinds of research topics and really enjoyed it. There are still many works I left unfinished, e.g. the stability control theory in active/gain materials, the bullseye morie patterned steerable array antenna. However, ChatGPT arrived in winter 2022, it was a huge eye-opener for me. I still recall being in a San Francisco hotel, coding a conversational agent on the very day the GPT-3.5 API was released. The impact is so broad and cross-displinary and the market needs is so urge, that I decided to devote the rest of my career to AI-related research and industry.
+My research interests extend to several “non-productizable” areas, including active metamaterials, stability control theory in active/gain materials, and advanced antenna architectures such as bullseye Moiré-patterned steerable array antennas. The emergence of large language models (LLMs) and conversational AI, exemplified by the advent of ChatGPT in late 2022, has redirected my focus towards AI-related research. The broad interdisciplinary impact and urgent societal needs associated with AI have motivated me to devote my career to this domain.
 
-In 2023, I kicked off an AI agent platform integrated into 5G MEC standard, aiming to bring computation closer to users by MNO's network.
+Recent Projects and Achievements
+---
+In 2023, I initiated an AI agent platform integrated into the 5G Multi-access Edge Computing (MEC) standard, aiming to decentralize computation and reduce latency by leveraging mobile network operators’ infrastructure.
+In 2024, I engaged in various AI-centered hackathons, where I worked on projects ranging from training speech models and fine-tuning LLMs to constructing Retrieval-Augmented Generation (RAG) systems and developing code generation tools. These experiences have deepened my understanding of AI capabilities and their applications in solving complex real-world problems.
+Notable competitions include the 2024 KDD Cup on RAG, which focused on using LLMs to retrieve accurate information from extensive web-scraped datasets, and the 2024 NeurIPS AI Code competition, where my team addressed highly complex algorithmic challenges under strict time constraints.
 
-In 2024, I've participated in several AI-related hackathons—everything from training a speech model and fine-tuning an LLM, to building a RAG system and code generation. I'm amazed at the vast capabilities of LLMs and how we, as humans, can harness them to tackle real-world problems.
-
-Two competitions especially stood out: the 2024 KDD Cup on RAG, which required using LLMs to retrieve accurate information from massive web-scraped data, and the 2024 NeurIPs AI Code competition, where we had to solve very complex algorithmic tasks in under 10 minutes. I also made it to Beyond Expo in Macau in May 2024, where I met a few startup founders from China and soaked in the vibrant energy there.
+<a href="https://www.youtube.com/channel/UCHy1iU-mW2XcQhMHysJvaHA" target="_blank">YouTube channel</a> 
 
 Thanks for visiting my site—it's still a work in progress, so stay tuned for more!
