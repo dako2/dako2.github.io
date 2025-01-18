@@ -8,7 +8,12 @@ redirect_from:
 ---
 <i>Researcher and Engineer specializing in AI and Wireless Communications</i>
 
-Hi, I'm a researcher and engineer living in the Bay Area, California. These days my interests revolve around AI and its applications. My career spans both industry-leading research and engineering roles, where I have led multiple research initiatives and successfully transitioned innovative projects into market-ready products.
+<p>
+  Hi, I was born and raised in Harbin, northeastern China, a city known for its annual winter ice and snow festivals. I came to the U.S. in 2011 to pursue my doctoral degree in applied electromagnetics at the University of Arizona.
+</p>
+<img src="path-to-image.jpg" alt="Harbin Winter Ice and Snow Festival" class="align-right"> 
+
+Now I'm a researcher and engineer living in the Bay Area, California. These days my interests revolve around AI and its applications. My career spans both industry-leading research and engineering roles, where I have led multiple research initiatives and successfully transitioned innovative projects into market-ready products.
 
 Current Position and Research Interests
 ---
