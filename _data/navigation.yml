@@ -10,16 +10,8 @@ main:
 
   - title: "Talks"
     url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Tech Blog"
     url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
+
     
