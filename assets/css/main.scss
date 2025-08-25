@@ -158,36 +158,48 @@ body::before {
   z-index: -1;
 }
 
-/* Photo gallery grid layout */
+/* Instagram-style photo gallery */
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
   margin: 25px 0;
+  padding: 0;
 }
 
 .photo-item {
-  background: #f8f8f8;
-  padding: 15px;
-  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.photo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 
 .photo-item img {
   width: 100%;
-  max-width: 280px;
-  height: 200px;
+  height: 280px;
   object-fit: cover;
-  margin-bottom: 10px;
+  display: block;
+  border-radius: 12px 12px 0 0;
 }
 
 .photo-caption {
-  font-size: 12px;
-  line-height: 1.3;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 1.4;
   color: #555;
   text-align: left;
+  background: #fff;
 }
 
 .photo-caption strong {
-  color: #333;
-  font-weight: bold;
+  color: #262626;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
 }
