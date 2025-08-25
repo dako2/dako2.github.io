@@ -13,6 +13,7 @@ body {
   color: #2c2c2c;
   line-height: 1.5;
   max-width: 900px;
+  padding-top: 60px;
 }
 
 /* Typography with engineering precision */
@@ -115,6 +116,12 @@ img {
   text-align: center;
   font-weight: bold;
   letter-spacing: 0.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .main-nav a {
