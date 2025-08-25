@@ -6,13 +6,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<i>Researcher and Engineer specializing in AI and Wireless Communications</i>
+Hi, I was born and raised in Harbin, northeastern China, a city known for its annual winter ice and snow festivals. I came to the states in 2011 to pursue my doctoral degree in applied electromagnetics at the University of Arizona. I stayed in north LA for 5 years as a researcher in the Facebook Connectivity Lab mostly working on drone and satellite projects. During pandemic, I moved to the bay area and joined Google Pixel team as a senior hardware engineer. My current interests lie in AI model research and consumer product development. 
 
-Hi, I was born and raised in Harbin, northeastern China, a city known for its annual winter ice and snow festivals. I came to the U.S. in 2011 to pursue my doctoral degree in applied electromagnetics at the University of Arizona. Now, I'm a researcher and engineer living in the Bay Area, California. These days my interests revolve around AI and its applications. My career spans both industry-leading research and engineering roles, where I have led multiple research initiatives and successfully transitioned innovative projects into market-ready products.
+Here is my Youtube channel <a href="https://www.youtube.com/channel/UCHy1iU-mW2XcQhMHysJvaHA" target="_blank">YouTube channel</a> 
 
-Current Position and Research Interests
+Recent projects
 ---
-I currently work at Google, where my responsibilities include the design and deployment of wireless connectivity solutions for Pixel devices. My work involves the development of high-performance connectivity modules, contributing to the enhancement of consumer electronics technology. 
+OCP Global Summit, 2023: Finalist—Demonstrated the first edge AI agent framework in 5G/6G mobile network -- ETSI MEC standards Demo
+Linux Foundation Infiniedge AI: Initiated and leading an open-source project Edge Data Agent—A data on-prem, code-on-the-fly agentic solution on edge for local data retrieval and AI application (GitHub)
+KDD Cup, 2024: Winning Team—Published “Honest AI,” a fact-checking pipeline that retrieves evidence via pre-hoc grounding or post-hoc search; returns “I Don’t Know” when unverifiable to avoid hallucination (Paper)
+Meta CRAG, 2025: Architected Multi-Modal Retrieval-Augmented Generation pipeline for visual multi-turn dialogs across 13 domains by integrating LLM, image OCR, web/image search, query and reranking optimization
+Seeed Embodied AI, 2025: Team winner—Fine Tuned Action Transformer and Nvidia GR00T model, deploying on Nvidia Jetson Orin for real-time robotics arm Lego brick manipulation (Hackster.io)
+Beyond Expo, 2024 (Invited Exhibitor): Developed a real-time on-device multimodal AI pipeline featuring TTS, ASR, and lip-sync video dubbing; demoed for dynamic interaction in a gaming use case (Video Demo)
+NeurIPS Meta Hacker Cup, 2024: Winner—Built an end-to-end competitive code generation agent pipeline with enhancing LLM’s reasoning and implementing tree search algorithms (MCTS), boosting accuracy by 20%
+Modular GPU Kernel Hackathon, 2025: physics simulation with Mojo on AMD/Nvidia GPUs (GitHub)
 
 Previous Experience and Key Achievements
 ---
@@ -30,13 +37,5 @@ Innovative Antenna Design via Moiré Patterns: I integrated principles of antenn
 Research Trajectory and Future Directions
 --- 
 My research interests extend to several areas, including active metamaterials, stability control theory in active/gain materials, and advanced antenna architectures such as bullseye Moiré-patterned steerable array antennas. The emergence of large language models (LLMs) and conversational AI, exemplified by the advent of ChatGPT in late 2022, has redirected my focus towards AI-related research. The broad interdisciplinary impact and urgent societal needs associated with AI have motivated me to devote my career to this domain.
-
-Recent Projects and Achievements
----
-In 2023, I initiated an AI agent platform integrated into the 5G Multi-access Edge Computing (MEC) standard, aiming to decentralize computation and reduce latency by leveraging mobile network operators’ infrastructure.
-In 2024, I engaged in various AI-centered hackathons, where I worked on projects ranging from training speech models and fine-tuning LLMs to constructing Retrieval-Augmented Generation (RAG) systems and developing code generation tools. These experiences have deepened my understanding of AI capabilities and their applications in solving complex real-world problems.
-Notable competitions include the 2024 KDD Cup on RAG, which focused on using LLMs to retrieve accurate information from extensive web-scraped datasets, and the 2024 NeurIPS AI Code competition, where my team addressed highly complex algorithmic challenges under strict time constraints.
-
-<a href="https://www.youtube.com/channel/UCHy1iU-mW2XcQhMHysJvaHA" target="_blank">YouTube channel</a> 
 
 Thanks for visiting my site—it's still a work in progress, so stay tuned for more!
