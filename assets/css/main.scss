@@ -2,66 +2,122 @@
 ---
 
 /* 
- * Early Web Style - Like 20+ Years Ago
- * Minimal HTML-only design for Qi Tang's Personal Website
+ * Engineering Arts - Minimalist Technical Design
+ * Clean, memorable, functional aesthetic
  */
 
-/* Absolutely minimal styling - early web era */
 body {
-  font-family: serif;
-  margin: 8px;
-  background: white;
-  color: black;
+  font-family: "Courier New", Courier, monospace;
+  margin: 25px;
+  background: #fafafa;
+  color: #2c2c2c;
+  line-height: 1.5;
+  max-width: 900px;
 }
 
-/* Basic typography - no fancy styling */
+/* Typography with engineering precision */
 h1 {
-  font-size: large;
+  font-size: 20px;
   font-weight: bold;
+  margin: 20px 0 12px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: medium;
+  font-size: 16px;
   font-weight: bold;
+  margin: 25px 0 10px 0;
+  border-left: 4px solid #333;
+  padding-left: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 h3 {
-  font-size: medium;
+  font-size: 14px;
   font-weight: bold;
+  margin: 18px 0 8px 0;
+  color: #444;
 }
 
-/* Simple links - classic web colors */
+/* Technical link styling */
 a {
-  color: blue;
-  text-decoration: underline;
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px dotted #0066cc;
 }
 
 a:visited {
-  color: purple;
+  color: #004499;
+  border-bottom: 1px dotted #004499;
 }
 
-/* Basic table styling */
+a:hover {
+  color: #ff6600;
+  border-bottom: 1px solid #ff6600;
+  background: #f0f0f0;
+}
+
+/* Clean table for header */
 table {
   border-collapse: collapse;
+  margin-bottom: 25px;
+  width: 100%;
 }
 
 td {
   vertical-align: top;
-  padding: 5px;
+  padding: 10px;
 }
 
-/* Simple lists */
+/* Structured lists */
 ul {
-  margin-left: 40px;
+  margin: 12px 0 12px 25px;
+  padding: 0;
 }
 
 li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 
-/* Basic paragraph spacing */
+/* Paragraph spacing */
 p {
-  margin-bottom: 1em;
+  margin: 12px 0;
+  text-align: left;
 }
 
-/* No responsive design - early web didn't have it */
+/* Emphasis styling */
+b {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+i {
+  font-style: italic;
+  color: #666;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+/* Engineering grid feel */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: -1;
+}
