@@ -2,140 +2,66 @@
 ---
 
 /* 
- * Stanford PhD Style Academic Website
- * Simple, clean, minimal design for Qi Tang's Personal Website
+ * Early Web Style - Like 20+ Years Ago
+ * Minimal HTML-only design for Qi Tang's Personal Website
  */
 
-/* Reset and Base Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 16px;
-}
-
+/* Absolutely minimal styling - early web era */
 body {
-  font-family: "Times New Roman", Times, serif;
-  line-height: 1.5;
-  color: #000;
-  background-color: #fff;
-  margin: 20px;
+  font-family: serif;
+  margin: 8px;
+  background: white;
+  color: black;
 }
 
-/* Container */
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-/* Typography */
+/* Basic typography - no fancy styling */
 h1 {
-  font-size: 24px;
+  font-size: large;
   font-weight: bold;
-  margin-bottom: 10px;
-  color: #000;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: medium;
   font-weight: bold;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  color: #000;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: medium;
   font-weight: bold;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  color: #000;
 }
 
-h4 {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 8px;
-  color: #000;
-}
-
-p {
-  margin-bottom: 10px;
-  text-align: justify;
-}
-
+/* Simple links - classic web colors */
 a {
-  color: #0000EE;
+  color: blue;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #551A8B;
+  color: purple;
 }
 
-a:hover {
-  color: #0000EE;
-}
-
-/* Lists */
-ul {
-  margin-left: 20px;
-  margin-bottom: 15px;
-}
-
-li {
-  margin-bottom: 8px;
-  text-align: justify;
-}
-
-/* Tables */
+/* Basic table styling */
 table {
   border-collapse: collapse;
-  margin-bottom: 20px;
 }
 
 td {
   vertical-align: top;
-  padding: 10px;
+  padding: 5px;
 }
 
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
+/* Simple lists */
+ul {
+  margin-left: 40px;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  body {
-    margin: 10px;
-  }
-  
-  .container {
-    max-width: 100%;
-  }
-  
-  table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-  
-  td {
-    display: block;
-    width: 100%;
-    padding: 5px 0;
-  }
-  
-  h1 {
-    font-size: 20px;
-  }
-  
-  h2 {
-    font-size: 16px;
-  }
+li {
+  margin-bottom: 5px;
 }
+
+/* Basic paragraph spacing */
+p {
+  margin-bottom: 1em;
+}
+
+/* No responsive design - early web didn't have it */
