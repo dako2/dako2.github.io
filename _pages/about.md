@@ -13,12 +13,19 @@ Here is my Youtube channel <a href="https://www.youtube.com/channel/UCHy1iU-mW2X
 Recent projects
 ---
 OCP Global Summit, 2023: Finalist—Demonstrated the first edge AI agent framework in 5G/6G mobile network -- ETSI MEC standards Demo
+
 Linux Foundation Infiniedge AI: Initiated and leading an open-source project Edge Data Agent—A data on-prem, code-on-the-fly agentic solution on edge for local data retrieval and AI application (GitHub)
+
 KDD Cup, 2024: Winning Team—Published “Honest AI,” a fact-checking pipeline that retrieves evidence via pre-hoc grounding or post-hoc search; returns “I Don’t Know” when unverifiable to avoid hallucination (Paper)
+
 Meta CRAG, 2025: Architected Multi-Modal Retrieval-Augmented Generation pipeline for visual multi-turn dialogs across 13 domains by integrating LLM, image OCR, web/image search, query and reranking optimization
+
 Seeed Embodied AI, 2025: Team winner—Fine Tuned Action Transformer and Nvidia GR00T model, deploying on Nvidia Jetson Orin for real-time robotics arm Lego brick manipulation (Hackster.io)
+
 Beyond Expo, 2024 (Invited Exhibitor): Developed a real-time on-device multimodal AI pipeline featuring TTS, ASR, and lip-sync video dubbing; demoed for dynamic interaction in a gaming use case (Video Demo)
+
 NeurIPS Meta Hacker Cup, 2024: Winner—Built an end-to-end competitive code generation agent pipeline with enhancing LLM’s reasoning and implementing tree search algorithms (MCTS), boosting accuracy by 20%
+
 Modular GPU Kernel Hackathon, 2025: physics simulation with Mojo on AMD/Nvidia GPUs (GitHub)
 
 Previous Experience and Key Achievements
