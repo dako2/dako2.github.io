@@ -1,0 +1,141 @@
+---
+layout: default
+title: "Blog - Qi Tang"
+---
+
+<nav class="main-nav">
+  <a href="/">About</a> |
+  <a href="/#research">Research</a> |
+  <a href="/#talks">Talks</a> |
+  <a href="/blog/">Blog</a> |
+  <a href="/#photos">Photos</a>
+</nav>
+
+<section id="blog">
+<h2>BLOG POSTS</h2>
+
+<article>
+<h3>AI Notes -- Models, Chips and Systems</h3>
+<p><i>June 22, 2025</i></p>
+
+<h4>Outline</h4>
+<ul>
+<li><a href="#madmax">MadMax -- can compiler be a smart LLM?</a></li>
+<li><a href="#tpu-hardware">TPU Hardware - Extreme Matmul throughput & Energy Efficiency</a></li>
+<li><a href="#compilers">Compilers - XLA and HLOs</a></li>
+<li><a href="#tools">Tools - Modeling, Simulator and Profilers</a></li>
+<li><a href="#inference">Techniques in Inference</a></li>
+<li><a href="#sota-inference">SOTA Techniques in Inference</a></li>
+<li><a href="#training">Techniques in Training / Tuning</a></li>
+<li><a href="#quantization">Quantization</a></li>
+<li><a href="#fundamentals">Fundamentals -- Model Architectures</a></li>
+<li><a href="#deepseek-v3">DeepSeek v3</a></li>
+</ul>
+
+<h4 id="madmax">MadMax -- can compiler be a smart LLM?</h4>
+<ul>
+<li><b>Optimizer:</b> min latency, max throughput</li>
+<li><b>Constraints:</b> data, model and micro-architecture</li>
+<li><b>Function calling tools</b></li>
+<li><b>Input:</b> model (pytorch)</li>
+<li><b>In-context:</b> hardware architecture + SW stack + working paths</li>
+<li><b>Output:</b> binary code, profiler graph</li>
+<li><b>References:</b> TVM, Meta's Chris Cummins: <a href="https://research.facebook.com/publications/large-language-model-for-compiler-optimization/">Large Language Model for Compiler Optimization</a></li>
+</ul>
+
+<h4 id="tpu-hardware">TPU Hardware - Extreme Matmul throughput & Energy Efficiency</h4>
+<ul>
+<li><b>GSPMD sharding</b></li>
+<li><b>Design:</b> systolic array (1970s) + pipeline, Ahead of Time compilation + less reliance on Cache</li>
+<li><b>Links:</b> <a href="https://henryhmko.github.io/posts/tpu/tpu.html">TPU Hardware Design</a>, <a href="https://jax-ml.github.io/scaling-book/training/">Scaling ML with JAX</a></li>
+<li><b>Components:</b> Tensorcore (matmul and convo) Sparsecore (specializes in embedding lookups) and HBM</li>
+<li><b>TPUEmbedding:</b> <a href="https://www.tensorflow.org/recommenders/api_docs/python/tfrs/layers/embedding/TPUEmbedding">TensorFlow Recommenders API Docs</a></li>
+</ul>
+
+<h4 id="compilers">Compilers - XLA and HLOs</h4>
+<ul>
+<li><b>HLO IR</b> via XLA</li>
+<li><b>Pallas:</b> MLIR via Mosaic</li>
+<li><b>Adam Paszke:</b> <a href="http://www.youtube.com/watch?v=wKd90avC8Nc">Lecture 42: Mosaic GPU</a> - a DSL for faster hopper + kernels in python</li>
+<li><b>PJRT Plugins</b></li>
+</ul>
+
+<h4 id="inference">Techniques in Inference</h4>
+<ul>
+<li><b>Goals of LLM Inference:</b> Speed (low latency TTFT, TPOT), Efficiency (higher throughput, lower cost), Ease of use (model support, API server)</li>
+<li><b>Warp Specialization:</b> Inter-Warpgroup overlapping of GEMM and Softmax</li>
+<li><b>FlashAttention-3:</b> <a href="http://www.youtube.com/watch?v=_B6ZbRbxiMY">CUDA Mode Keynote | Tri Dao</a></li>
+<li><b>WGMMA and TMA:</b> <a href="https://research.colfax-intl.com/cutlass-tutorial-wgmma-hopper/">CUTLASS Tutorial</a></li>
+</ul>
+
+<h4 id="sota-inference">SOTA Techniques in Inference</h4>
+<ul>
+<li><b>Token-wise continuous batching</b></li>
+<li><b>Flash-Attention</b> for prefilling</li>
+<li><b>Paged-Attention</b> for decoding</li>
+<li><b>Megablocks</b> for MoE</li>
+<li><b>Quantization</b> int8 and int4</li>
+<li><b>vLLM:</b> <a href="http://www.youtube.com/watch?v=IqhJ5Eq8bgs">CUDA Mode Keynote | Lily Liu</a></li>
+<li><b>Speculative Decoding:</b> Drafter + Primary (7B + 70B)</li>
+</ul>
+
+<h4 id="training">Techniques in Training / Tuning</h4>
+<ul>
+<li><b>Goal:</b> improve high throughput within AI cluster</li>
+<li><b>Approaches:</b> Highly efficient kernels (compute-bound), Model: Reduce communication & Improve MFU/HFU</li>
+<li><b>PaLM:</b> <a href="https://arxiv.org/abs/2204.02311">Scaling Language Modeling with Pathways</a></li>
+<li><b>Megatron-LM:</b> Pretrain_gpt.py core/transformer/moe</li>
+</ul>
+
+<h4 id="quantization">Quantization</h4>
+<p>Important to reduce the cost of serving LLMs. Different precisions required for different layers and different functions.</p>
+<ul>
+<li><b>AutoQuantizer</b></li>
+<li><b>Post-training Dynamic Quantization (PTDQ)</b></li>
+<li><b>Post-training static Quantization (PTSQ)</b></li>
+<li><b>Techniques:</b> Absmax quantization, zero point quantization, Large Magnitude Features</li>
+</ul>
+
+<h4 id="fundamentals">Fundamentals -- Model Architectures</h4>
+<ul>
+<li><b>Tokenizer:</b> BPE Algorithm, SentencePiece Tokenizer, TikToken Tokenizer, Tekken</li>
+<li><b>Positional Encoding:</b> Absolute/Relative/Rotatory Positional Encoding</li>
+<li><b>Multi-Head Attention:</b> <a href="https://docs.pytorch.org/docs/stable/generated/torch.nn.MultiheadAttention.html">PyTorch Docs</a></li>
+<li><b>LLama2:</b> RMS Norm, RoPE, Byte Pair with sentencepiece Tokenizer, SwiGLU activation function</li>
+</ul>
+
+<h4 id="deepseek-v3">DeepSeek v3</h4>
+<ul>
+<li><b>DeepSeek v3:</b> training & inference codesign</li>
+<li><b>Multi-Head Latent Attention (MLA):</b> reduce KV cache for inference</li>
+<li><b>Multi-Token Prediction</b></li>
+<li><b>Shared and routing experts</b></li>
+<li><b>Large Scale fp8 training</b></li>
+</ul>
+</article>
+
+<hr>
+
+<article>
+<h3>Resources</h3>
+<p><i>January 3, 2025</i></p>
+
+<h4>Digital Design & Computer Architecture</h4>
+<ul>
+<li><b>Onur Mutlu – Systolic Arrays (ASIC Lecture 18):</b> <a href="https://www.youtube.com/watch?v=Ayo8uVPvjyw">Watch on YouTube</a></li>
+<li><b>Flynn's Taxonomy:</b> <i>(Reference to be added)</i></li>
+</ul>
+
+<h4>Prompting</h4>
+<ul>
+<li><b>The Prompt Report:</b> <a href="https://arxiv.org/pdf/2406.06608">A Systematic Survey of Prompt Engineering Techniques (arXiv PDF)</a></li>
+</ul>
+
+<h4>Experimental & Miscellaneous</h4>
+<ul>
+<li><b>L1B3RT4S:</b> <a href="https://github.com/elder-plinius/L1B3RT4S">Don't Try This at Home (GitHub Repo)</a></li>
+<li><b>One-Two by DeepMind:</b> <a href="https://github.com/google-deepmind/onetwo">View on GitHub</a></li>
+<li><b>Drawing Tool:</b> <a href="https://excalidraw.com/">Excalidraw Diagram Tool</a></li>
+</ul>
+</article>
+</section>

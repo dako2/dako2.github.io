@@ -1,41 +1,205 @@
 ---
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+/* 
+ * Engineering Arts - Minimalist Technical Design
+ * Clean, memorable, functional aesthetic
+ */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  padding: 60px 25px 25px 25px;
+  background: #fafafa;
+  color: #2c2c2c;
+  line-height: 1.5;
+  max-width: 900px;
+}
 
-@import "reset";
-@import "base";
+/* Typography with engineering precision */
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 12px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 25px 0 10px 0;
+  border-left: 4px solid #333;
+  padding-left: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
 
-@import "forms";
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 18px 0 8px 0;
+  color: #444;
+}
 
-@import "page";
-@import "archive";
-@import "sidebar";
+/* Technical link styling */
+a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px dotted #0066cc;
+}
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+a:visited {
+  color: #004499;
+  border-bottom: 1px dotted #004499;
+}
+
+a:hover {
+  color: #ff6600;
+  border-bottom: 1px solid #ff6600;
+  background: #f0f0f0;
+}
+
+/* Clean table for header */
+table {
+  border-collapse: collapse;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+/* Structured lists */
+ul {
+  margin: 12px 0 12px 25px;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Paragraph spacing */
+p {
+  margin: 12px 0;
+  text-align: left;
+}
+
+/* Emphasis styling */
+b {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+i {
+  font-style: italic;
+  color: #666;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+/* Navigation bar styling */
+.main-nav {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-nav a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: none;
+  margin: 0 8px;
+  padding: 4px 8px;
+}
+
+.main-nav a:hover {
+  background: #e0e0e0;
+  color: #000;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 30px;
+}
+
+/* Engineering grid feel */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Instagram-style photo gallery */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.photo-item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.photo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.photo-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px 12px 0 0;
+}
+
+.photo-caption {
+  padding: 15px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #555;
+  text-align: left;
+  background: #fff;
+}
+
+.photo-caption strong {
+  color: #262626;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+}
