@@ -1,9 +1,15 @@
----
-layout: default
-title: "Qi Tang - Engineer & Researcher"
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qi Tang - Engineer & Researcher</title>
+    <meta name="description" content="Ph.D. Engineer & Researcher specializing in AI, wireless communications, and antenna design">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
 
-<nav class="main-nav">
+  <body>
+    <nav class="main-nav"></nav>
   <a href="#about">About</a> |
   <a href="#research">Research</a> |
   <a href="#talks">Talks</a> |
@@ -156,3 +162,22 @@ title: "Qi Tang - Engineer & Researcher"
 <p>My research interests extend to several areas, including active metamaterials, stability control theory in active/gain materials, and advanced antenna architectures such as bullseye Moiré-patterned steerable array antennas. The emergence of large language models (LLMs) and conversational AI, exemplified by the advent of ChatGPT in late 2022, has redirected my focus towards AI-related research. The broad interdisciplinary impact and urgent societal needs associated with AI have motivated me to devote my career to this domain.</p>
 
 <p>Thanks for visiting my site—it's still a work in progress, so stay tuned for more!</p>
+</section>
+
+    <script>
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
