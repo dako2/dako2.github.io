@@ -181,10 +181,7 @@ defaults:
       layout: default
 
 
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# CSS - using plain CSS instead of SCSS for simplified deployment
 
 
 # Outputting
