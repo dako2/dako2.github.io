@@ -200,3 +200,65 @@ body::before {
   display: block;
   margin-bottom: 4px;
 }
+
+/* Photo modal overlay */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 1200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  border: none;
+}
+
+.modal-caption {
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 1.4;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.modal-caption strong {
+  color: #fff;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Make photo items clickable */
+.photo-item img {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.photo-item img:hover {
+  transform: scale(1.02);
+}
